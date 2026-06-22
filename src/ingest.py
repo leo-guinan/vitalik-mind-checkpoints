@@ -29,6 +29,20 @@ SEED_URLS = [
     ("https://ethresear.ch/t/proposer-block-builder-separation-friendly-fee-market-designs/9725", 2021),
     ("https://ethresear.ch/t/future-proof-shard-and-history-access-precompiles/9781", 2021),
     ("https://ethresear.ch/t/maximally-simple-account-abstraction-without-gas-refunds/5007", 2019),
+    # 2018: minimal state execution proposal (Dec 2018)
+    ("https://ethresear.ch/t/a-minimal-state-execution-proposal/4445", 2018),
+    # 2017: stateless client concept (Oct 2017)
+    ("https://ethresear.ch/t/the-stateless-client-concept/172", 2017),
+    # 2020: polynomial commitments for state roots (Mar 2020)
+    ("https://ethresear.ch/t/using-polynomial-commitments-to-replace-state-roots/7095", 2020),
+    # 2020: fraud-proof-free data availability (Jan 2020)
+    ("https://ethresear.ch/t/with-fraud-proof-free-data-availability-proofs-we-can-have-scalable-data-chains-without-committees/6725", 2020),
+    # 2020: fee market contract for eth2 shards (Oct 2020)
+    ("https://ethresear.ch/t/a-fee-market-contract-for-eth2-shards-in-eth1/8124", 2020),
+    # 2022: builder constraints (Oct 2022)
+    ("https://ethresear.ch/t/how-much-can-we-constrain-builders-without-bringing-back-heavy-burdens-to-proposers/13808", 2022),
+    # 2022: multidimensional EIP 1559 (Jan 2022)
+    ("https://ethresear.ch/t/multidimensional-eip-1559/11651", 2022),
     # Historical Ethereum blog posts (known Vitalik authorship, from blog index)
     ("https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/", 2014),
     ("https://blog.ethereum.org/2014/03/20/the-latest-evm-ethereum-is-a-trust-free-closure-system/", 2014),
@@ -39,7 +53,8 @@ SEED_URLS = [
     ("https://blog.ethereum.org/2015/04/27/visions-part-2-the-problem-of-trust/", 2015),
     ("https://blog.ethereum.org/2015/08/28/on-anti-pre-revelation-games/", 2015),
     ("https://blog.ethereum.org/2016/07/15/to-fork-or-not-to-fork/", 2016),
-    ("https://blog.ethereum.org/2017/09/14/on-transaction-fees-smart-contract-platforms-and-why-im-slightly-worried-about-the-future-of-ethereum/", 2017),
+    # 2018 Ethereum blog post (Vitalik authored roadmap/update posts)
+    ("https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/", 2018),
     # vitalik.ca (may fail DNS in sandbox; keep as attempt)
     ("https://vitalik.ca/general/2021/01/06/toll.html", 2021),
     ("https://vitalik.ca/general/2020/05/08/medical.html", 2020),
