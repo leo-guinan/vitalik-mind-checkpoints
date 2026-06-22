@@ -1,0 +1,53 @@
+{
+  "year": 2025,
+  "generated_at": "",
+  "doc_count": 23,
+  "compression": {
+    "compression_framing": 1,
+    "numbered_structure": 2,
+    "X_vs_Y_frame": 229,
+    "possible_futures": 0,
+    "self_ref": 36,
+    "demystification": 18
+  },
+  "compression_total": 286,
+  "meme_vocab_hits": 23,
+  "meme_vocab_density": 0.000389309230014049,
+  "meme_vocab_list": [
+    "acc",
+    "account abstraction",
+    "blob",
+    "community notes",
+    "copyleft",
+    "credibly neutral",
+    "d/acc",
+    "fee market",
+    "kzg",
+    "layer 2",
+    "light client",
+    "network state",
+    "open source",
+    "permissive license",
+    "plurality",
+    "proto",
+    "quadratic funding",
+    "quadratic voting",
+    "social recovery",
+    "stateless",
+    "the merge",
+    "validium",
+    "zk-evm"
+  ],
+  "readability": {
+    "avg_sentence_len": 24.82,
+    "avg_char_per_word": 4.9668,
+    "pct_questions": 0.0269,
+    "pct_first_person": 0.0148,
+    "pct_math_sentences": 0.0441,
+    "sentence_count": 2380,
+    "word_count": 59079
+  },
+  "analogy_density": 0.06554621848739496,
+  "parenthetical_density": 0.17016806722689076,
+  "spread_score": 143.4505
+}

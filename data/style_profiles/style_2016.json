@@ -1,0 +1,33 @@
+{
+  "year": 2016,
+  "generated_at": "",
+  "doc_count": 2,
+  "compression": {
+    "compression_framing": 1,
+    "numbered_structure": 0,
+    "X_vs_Y_frame": 11,
+    "possible_futures": 0,
+    "self_ref": 0,
+    "demystification": 2
+  },
+  "compression_total": 14,
+  "meme_vocab_hits": 3,
+  "meme_vocab_density": 0.0006523157208088715,
+  "meme_vocab_list": [
+    "acc",
+    "open source",
+    "proto"
+  ],
+  "readability": {
+    "avg_sentence_len": 33.09,
+    "avg_char_per_word": 4.751,
+    "pct_questions": 0.0288,
+    "pct_first_person": 0.0144,
+    "pct_math_sentences": 0.8417,
+    "sentence_count": 139,
+    "word_count": 4599
+  },
+  "analogy_density": 0.07194244604316546,
+  "parenthetical_density": 0.28776978417266186,
+  "spread_score": 7.5957
+}

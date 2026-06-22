@@ -1,0 +1,51 @@
+{
+  "year": 2022,
+  "generated_at": "",
+  "doc_count": 19,
+  "compression": {
+    "compression_framing": 0,
+    "numbered_structure": 0,
+    "X_vs_Y_frame": 199,
+    "possible_futures": 0,
+    "self_ref": 0,
+    "demystification": 7
+  },
+  "compression_total": 206,
+  "meme_vocab_hits": 21,
+  "meme_vocab_density": 0.00040986006206452367,
+  "meme_vocab_list": [
+    "acc",
+    "account abstraction",
+    "blob",
+    "credibly neutral",
+    "danksharding",
+    "fee market",
+    "kzg",
+    "layer 2",
+    "layer 3",
+    "network state",
+    "open source",
+    "proto",
+    "quadratic funding",
+    "quadratic voting",
+    "social recovery",
+    "soulbound",
+    "state expiry",
+    "the merge",
+    "validium",
+    "verkle",
+    "zk-evm"
+  ],
+  "readability": {
+    "avg_sentence_len": 24.72,
+    "avg_char_per_word": 5.0148,
+    "pct_questions": 0.0617,
+    "pct_first_person": 0.0126,
+    "pct_math_sentences": 0.0502,
+    "sentence_count": 2073,
+    "word_count": 51237
+  },
+  "analogy_density": 0.05499276410998553,
+  "parenthetical_density": 0.13072841292812348,
+  "spread_score": 103.4462
+}

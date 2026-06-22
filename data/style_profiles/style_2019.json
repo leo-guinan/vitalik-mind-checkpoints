@@ -1,0 +1,40 @@
+{
+  "year": 2019,
+  "generated_at": "",
+  "doc_count": 14,
+  "compression": {
+    "compression_framing": 0,
+    "numbered_structure": 0,
+    "X_vs_Y_frame": 104,
+    "possible_futures": 0,
+    "self_ref": 0,
+    "demystification": 7
+  },
+  "compression_total": 111,
+  "meme_vocab_hits": 10,
+  "meme_vocab_density": 0.00030977974660016726,
+  "meme_vocab_list": [
+    "acc",
+    "layer 2",
+    "open source",
+    "plutocracy",
+    "proto",
+    "quadratic funding",
+    "quadratic voting",
+    "social recovery",
+    "stateless",
+    "weak subjectivity"
+  ],
+  "readability": {
+    "avg_sentence_len": 27.69,
+    "avg_char_per_word": 4.9981,
+    "pct_questions": 0.0437,
+    "pct_first_person": 0.0096,
+    "pct_math_sentences": 0.0515,
+    "sentence_count": 1166,
+    "word_count": 32281
+  },
+  "analogy_density": 0.045454545454545456,
+  "parenthetical_density": 0.30617495711835335,
+  "spread_score": 56.0506
+}

@@ -1,0 +1,34 @@
+{
+  "year": 2018,
+  "generated_at": "",
+  "doc_count": 7,
+  "compression": {
+    "compression_framing": 1,
+    "numbered_structure": 0,
+    "X_vs_Y_frame": 70,
+    "possible_futures": 4,
+    "self_ref": 0,
+    "demystification": 3
+  },
+  "compression_total": 78,
+  "meme_vocab_hits": 4,
+  "meme_vocab_density": 0.00021268676556601265,
+  "meme_vocab_list": [
+    "acc",
+    "layer 2",
+    "proto",
+    "quadratic voting"
+  ],
+  "readability": {
+    "avg_sentence_len": 30.33,
+    "avg_char_per_word": 4.9569,
+    "pct_questions": 0.0387,
+    "pct_first_person": 0.0146,
+    "pct_math_sentences": 0.3742,
+    "sentence_count": 620,
+    "word_count": 18807
+  },
+  "analogy_density": 0.05,
+  "parenthetical_density": 0.3387096774193548,
+  "spread_score": 39.5923
+}

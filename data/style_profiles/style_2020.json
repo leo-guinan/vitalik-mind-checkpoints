@@ -1,0 +1,43 @@
+{
+  "year": 2020,
+  "generated_at": "",
+  "doc_count": 12,
+  "compression": {
+    "compression_framing": 0,
+    "numbered_structure": 4,
+    "X_vs_Y_frame": 101,
+    "possible_futures": 0,
+    "self_ref": 0,
+    "demystification": 5
+  },
+  "compression_total": 110,
+  "meme_vocab_hits": 13,
+  "meme_vocab_density": 0.0004583436166837076,
+  "meme_vocab_list": [
+    "acc",
+    "credibly neutral",
+    "fee market",
+    "layer 2",
+    "light client",
+    "plutocracy",
+    "proto",
+    "quadratic funding",
+    "quadratic voting",
+    "stateless",
+    "the verge",
+    "volition",
+    "weak subjectivity"
+  ],
+  "readability": {
+    "avg_sentence_len": 26.96,
+    "avg_char_per_word": 4.9064,
+    "pct_questions": 0.0722,
+    "pct_first_person": 0.0109,
+    "pct_math_sentences": 0.0456,
+    "sentence_count": 1052,
+    "word_count": 28363
+  },
+  "analogy_density": 0.04467680608365019,
+  "parenthetical_density": 0.2661596958174905,
+  "spread_score": 55.5702
+}

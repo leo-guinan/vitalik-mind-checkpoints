@@ -1,0 +1,35 @@
+{
+  "year": 2026,
+  "generated_at": "",
+  "doc_count": 2,
+  "compression": {
+    "compression_framing": 0,
+    "numbered_structure": 0,
+    "X_vs_Y_frame": 36,
+    "possible_futures": 0,
+    "self_ref": 0,
+    "demystification": 0
+  },
+  "compression_total": 36,
+  "meme_vocab_hits": 5,
+  "meme_vocab_density": 0.0005724098454493417,
+  "meme_vocab_list": [
+    "acc",
+    "open source",
+    "proto",
+    "the verge",
+    "zk-evm"
+  ],
+  "readability": {
+    "avg_sentence_len": 23.81,
+    "avg_char_per_word": 4.8852,
+    "pct_questions": 0.0136,
+    "pct_first_person": 0.02,
+    "pct_math_sentences": 0.0054,
+    "sentence_count": 367,
+    "word_count": 8735
+  },
+  "analogy_density": 0.04632152588555858,
+  "parenthetical_density": 0.12534059945504086,
+  "spread_score": 18.3331
+}
