@@ -20,6 +20,7 @@ CORPORA = [
     PSEUDO / 'candidates_clean_384_scored.jsonl',
     PSEUDO / 'ethresearched_clean_384_scored.jsonl',
     PSEUDO / 'github_384_scored.jsonl',
+    PSEUDO / 'bitcointalk_clean_384_scored.jsonl',
     RAW / 'vitalik_corpus.jsonl',
 ]
 
