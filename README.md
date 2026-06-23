@@ -39,20 +39,42 @@ Stream 2 (style):   spread score, meme vocabulary density, readability fingerpri
                     analogy density, compression signature counts, parenthetical rate.
 Stream 3 (embeddings): 384-dim sentence-transformers vectors pooled per year,
                        weighted by sqrt(doc_count) to damp small-year bias.
-
-UMAP clustering results
+# UMAP clustering results
 -----------------------
-Style layer KMeans(k=3):
-  cluster 0: [2020, 2022, 2024, 2025]
-  cluster 1: [2016, 2017, 2018, 2023, 2026]
-  cluster 2: [2019, 2021]
 
-Embed layer KMeans(k=3):
-  cluster 0: [2019, 2020, 2021]
-  cluster 1: [2022, 2023, 2024, 2025, 2026]
-  cluster 2: [2016, 2017, 2018]
 
-Cross-layer same-year distance: mean = 16.34 (style vs embed spaces differ).
+## Pseudonym search methodology
+-------------------------------
+The goal: find an anonymized Vitalik-era document (medium importance to Ethereum,
+2016-2018 window, posted under a non-Vitalik identity for strategic reasons).
+
+Three-layer matching:
+  Layer 1 — 384-dim cosine proximity to year vectors (exact-year recovery: 32.1%,
+             ±1yr: 55.1%, ±2yr: 65.4%)
+  Layer 2 — topic overlap score against high-signal controversial topics:
+             `issuance_minimum_viable`, `fee_market`, `casper_tfg_cbc`,
+             `plasma_minimal`, `state_expiry_stateless`, `sharding_das`, 
+             `consensus_pos`, `snarks_starks`
+  Layer 3 — style fingerprint L2 distance to per-year profiles
+
+Author fence: UMAP on author-level style+topic vectors from all corpora.
+  Known Vitalik: vbuterin, vitalik buterin
+  Fence centroid [-2.715, 4.754], radius 0.226
+  Unknown authors inside fence: 0
+
+Corpus stats:
+  183-doc trained corpus (vitalik.eth.limo, 2016-2026)
+  Pseudonym candidates: 1324 ethresearched + 108 reddit + 48 github + 41 bitcointalk
+  38 unique authors evaluated in author fence
+  Top combined hybrid hits cluster in 2016-2017 consensus/sharding topics
+
+Key artifacts:
+  src/targeted_probe.py       score against controversial-topic layer
+  src/author_fence.py          author-level UMAP fence plot
+  src/rescore_with_style.py   hybrid proximity+topic+style re-ranker
+  src/rank_by_topic_overlap.py topic-overlap ranking
+  docs/METHODOLOGY.md          full methodology write-up
+
 
 Running
 -------
